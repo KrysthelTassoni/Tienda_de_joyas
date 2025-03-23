@@ -13,37 +13,89 @@ Este es el backend de una tienda de joyas, desarrollado como parte de un proyect
 
 ---
 
-## Uso
-El servidor estará disponible en http://localhost:3000. A continuación, se describen los endpoints disponibles.
+## Instalación
 
----
+Sigue estos pasos para instalar y ejecutar el proyecto en tu máquina local.
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/KrysthelTassoni/Tienda_de_joyas.git
+
+2.Navega al directorio del proyecto en tu terminal:
+
+ cd tienda-de-joyas-backend
+
+3.Instala las dependencias:
+
+ npm install
+
+4.Configura la base de datos:
+
+ -Asegúrate de tener PostgreSQL instalado y en ejecución.
+
+ -Crea una base de datos llamada joyas.
+
+ -Ejecuta el script SQL proporcionado en esquemas.sql para crear la tabla e insertar datos de prueba.
+
+5.Configura las variables de entorno:
+
+ -Crea un archivo .env en la raíz del proyecto.
+
+ -Agrega la siguiente configuración:
+
+  DATABASE_URL=postgres://usuario:contraseña@localhost:5432/joyas
+  PORT=3000
+
+6.Inicia el servidor:
+
+node index.js
 
 ## Endpoints
 
 - Obtener todas las joyas
-Método: GET
 
-Ruta: /joyas
+ Método: GET
 
-Parámetros:
+ Ruta: /joyas
 
-**limits** Límite de resultados por página (por defecto: 10).
+ Parámetros:
 
-**page**: Número de página (por defecto: 1).
+  **limits** Límite de resultados por página (por defecto: 10).
 
-**order_by**: Ordenamiento (por defecto: id_ASC).
+  **page**: Número de página (por defecto: 1).
+
+  **order_by**: Ordenamiento (por defecto: id_ASC).
+
+    ####Ejemplo URL:
+
+       GET /joyas?limits=5&page=1&order_by=precio_ASC
 
 - Filtrar joyas
-Método: GET
 
-Ruta: /joyas/filtros
+ Método: GET
 
-Parámetros:
+ Ruta: /joyas/filtros
 
-**precio_min**: Precio mínimo.
+ Parámetros:
 
-**precio_max**: Precio máximo.
+  **precio_min**: Precio mínimo.
 
-**categoria**: Categoría de la joya.
+  **precio_max**: Precio máximo.
 
-**metal**: Tipo de metal.
+  **categoria**: Categoría de la joya.
+
+  **metal**: Tipo de metal.
+
+   ####Ejemplo URL:
+
+      GET /joyas/filtros?precio_min=25000&precio_max=30000&categoria=aros&metal=plata
+
+
+
+
+
+
+
+
+
+
