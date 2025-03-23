@@ -1,0 +1,60 @@
+
+Started GET /joyas for :: ::ffff:127.0.0.1 at Sun Mar 23 2025 15:58:09 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 114 ms Request ID: [fcd58433-49d8-41ee-8eae-f7851b647a0b]
+
+Started GET /joyas?limit=2 for :: ::ffff:127.0.0.1 at Sun Mar 23 2025 15:58:40 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 126 ms Request ID: [7f98f5ab-17e7-41d0-a9d0-f0b6f6719cec]
+
+Started GET /joyas/filtros?precio_min=25000&precio_max=30000&categoria%20=aros&metal=plata for :: ::ffff:127.0.0.1 at Sun Mar 23 2025 15:59:34 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 122 ms Request ID: [41e05ea1-2f1f-48af-adea-ccac3a590f6e]
+
+Started GET /joyas/filtros?precio_min=25000&precio_max=30000&categoria for :: ::1 at Sun Mar 23 2025 15:59:51 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 111 ms Request ID: [78194222-eb68-492e-ab03-ca673f86f193]
+
+Started GET /joyas?limits=3&page=2&order_by=stock_ASC for :: ::ffff:127.0.0.1 at Sun Mar 23 2025 16:00:21 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 110 ms Request ID: [90c3b7ce-2e04-4b92-b461-3c6a4440a7cd]
+
+Started GET /joyas/filtros?precio_min=25000&precio_max=30000&categoria%20=aros&metal=plata for :: ::ffff:127.0.0.1 at Sun Mar 23 2025 16:00:38 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 127 ms Request ID: [cac06f06-3dde-42e6-a5d0-9f7e44ec5f17]
+
+Started GET /joyas/filtros?precio_min=25000&precio_max=30000&categoria for :: ::1 at Sun Mar 23 2025 16:00:56 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 304 message:  Time response: 140 ms Request ID: [b03c68b5-3a15-495b-a309-ddc3654cb58f]
+
+Started GET /joyas/filtros?precio_min=25000&precio_max=30000&categoria%20=aros&metal=plata for :: ::ffff:127.0.0.1 at Sun Mar 23 2025 16:03:25 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 147 ms Request ID: [b341fb0f-f033-4e33-bd56-f4bf83400cf4]
+
+Started GET /joyas/filtros?precio_min=25000&precio_max=30000&categoria=aros&metal=plata for :: ::1 at Sun Mar 23 2025 16:04:30 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 304 message:  Time response: 99 ms Request ID: [02cf0032-e89a-4ad2-b9b6-d732357ee6c5]
+
+Started GET /joyas/filtros?precio_min=25000&precio_max=30000&categoria%20=aros&metal=plata for :: ::ffff:127.0.0.1 at Sun Mar 23 2025 16:05:20 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 91 ms Request ID: [c3f59c9f-76e6-4030-9973-14318c6f02f9]
+
+Started GET /joyas/filtros?precio_min=25000&precio_max=30000&categoria%20=aros&metal=plata for :: ::ffff:127.0.0.1 at Sun Mar 23 2025 16:09:45 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 28 ms Request ID: [f2b5e376-550a-4a50-9c3f-26a8525d5be1]
+
+Started GET /joyas?limits=3&page=2&order_by=stock_ASC for :: ::1 at Sun Mar 23 2025 16:10:09 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 122 ms Request ID: [501bcbbf-b590-49c8-a204-204a5f20d6d5]
+
+Started GET /joyas?limits=3&page=2&order_by=stock_ASC for :: ::ffff:127.0.0.1 at Sun Mar 23 2025 16:10:28 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 132 ms Request ID: [5ad68ea4-1d50-4c2f-abd8-c5d44bbd8ab7]
+
+Started GET /joyas/filtros?precio_min=25000&precio_max=30000&categoria%20=aros&metal=plata for :: ::ffff:127.0.0.1 at Sun Mar 23 2025 16:10:45 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 128 ms Request ID: [b2d1d9b5-62eb-4745-96bf-8c0450d61041]
+
+Started GET /joyas/filtros?precio_min=25000&precio_max=30000 for :: ::ffff:127.0.0.1 at Sun Mar 23 2025 16:10:56 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 142 ms Request ID: [99f9f2e6-3012-41f2-b457-d6accec031a2]
